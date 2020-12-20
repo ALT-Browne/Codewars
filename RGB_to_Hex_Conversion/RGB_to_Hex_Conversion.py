@@ -12,3 +12,6 @@ def rgb(r, g, b):
     temp_list = [(colour // 16, colour - (16 * (colour // 16))) for colour in rgb_list] # Computes each parameter's two digit values in base 16, using base ten
     hex_list = [str(hex_dict.get(tup[i], tup[i])) for tup in temp_list for i in range(2)] # Converts digits to base 16 notation if necessary
     return "".join(hex_list)
+
+
+print(rgb(132, 35, 254))

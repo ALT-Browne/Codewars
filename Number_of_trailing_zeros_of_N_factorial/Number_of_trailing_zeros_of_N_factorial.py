@@ -32,3 +32,6 @@ def zeros_2(n):
             break
         max_power_of_5 += 1
     return sum([n // (5 ** k) for k in range(1, max_power_of_5 + 1)])
+
+
+print(zeros_2(6))
