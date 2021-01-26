@@ -19,4 +19,4 @@ def shift(strng, num=13):
 
 def rot13(strng):
     return shift(strng)
-
+    

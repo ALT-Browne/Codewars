@@ -34,4 +34,4 @@ def zeros_2(n):
     return sum([n // (5 ** k) for k in range(1, max_power_of_5 + 1)])
 
 
-print(zeros_2(6))
+print(zeros_2(20))
